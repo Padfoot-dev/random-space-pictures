@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+#particles-js{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+  }
+  
+
+.image-container {
+
+    position: absolute;
+    width: 70vw;
+    height: 70vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    
+
+    
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.button {
+
+    border: none;
+    background-color: cornsilk;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin: 15px;
+    border: 2px solid cornsilk;
+    border-radius: 10px;
+    
+}
